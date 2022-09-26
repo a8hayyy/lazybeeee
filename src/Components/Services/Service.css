@@ -13,6 +13,7 @@
     width: 20%;
     background-color: #0b623b; 
     margin: 5rem 0;
+    padding: 0;
     height: 50px;
     display:flex;
     align-items: center;
@@ -29,4 +30,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media screen and (max-width: 786px) {
+    .service-heading{
+        width: 40%;
+        height: 8rem;
+    }
+
+    .service-heading h1{
+        font-size: 2.5rem;
+    }
 }

@@ -66,4 +66,12 @@
     .main-text h1{
         font-size: 5rem;
     }
+
+    .steps-container{
+        align-items: center;
+    }
+
+    .steps-container h3{
+        padding: 0px 3px;
+    }
 }
