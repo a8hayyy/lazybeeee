@@ -28,7 +28,7 @@ function Footer() {
                 </ul>
             </div>
             <div className='footer-col'>
-                <div className='footer-col-name'>
+                <div className='footer-col-name footer-col-spl'>
                     <h2>FOLLOW</h2>
                 </div>
                 <div className='follow-links'>
