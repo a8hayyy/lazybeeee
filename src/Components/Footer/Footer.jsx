@@ -8,9 +8,9 @@ function Footer() {
         <div className='footer-row'>
             <div className='footer-col'>
                 <div className='footer-col-name'>
-                    <h2>Company</h2>
+                    <h2>COMPANY</h2>
                 </div>
-                <ul>
+                <ul className='footer-list-items'>
                     <li><a href='/'>About</a></li>
                     <li><a href='/products'>Delivery Menu</a></li>
                     <li><a href='/products' >Services Menu</a></li>
@@ -18,9 +18,9 @@ function Footer() {
             </div>
             <div className='footer-col'>
                 <div className='footer-col-name'>
-                    <h2>Contact</h2>
+                    <h2>CONTACT</h2>
                 </div>
-                <ul>
+                <ul className='footer-list-items'>
                     <li><a href='#'>Gmail</a></li>
                     <li><a href='#' style={{fontSize:"2rem"}}>Lazybee.service@gmail.com</a></li>
                     <li><a href='#'>WhatsApp</a></li>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
             <div className='footer-col'>
                 <div className='footer-col-name'>
-                    <h2>Follow</h2>
+                    <h2>FOLLOW</h2>
                 </div>
                 <div className='follow-links'>
                     <ul>
