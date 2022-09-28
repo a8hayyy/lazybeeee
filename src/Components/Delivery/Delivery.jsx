@@ -28,7 +28,7 @@ function Delivery() {
                     <Card image={food} name='food' btnName='Explore'/>
                     <Card image={colddrink} name="" btnName='All Items'/>
                     <Card image={snack} name="snack" btnName='Explore'/>
-                    <Card image={cigarette} name="" btnName='All Items'/>
+                    <Card image={cigarette} name="cigarette" btnName='Explore'/>
                     <Card image={beer} name="" btnName='All Items'/>
                 </div>
             </div>

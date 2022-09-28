@@ -1,5 +1,5 @@
 import React from 'react'
-import Items from '../../Components/Items/Items'
+import Product from '../../Components/Product/Product'
 
 function Food() {
   return (
@@ -8,17 +8,17 @@ function Food() {
         <h1>FOOD</h1>
     </div>
     <div className='fruit-item-container'>
-        <Items name="Apple" price='100/Kg'/>
-        <Items name="Mango" price='80/Kg'/>
-        <Items name="Papaya" price='40/Kg'/>
-        <Items name="Orange" price='50/Kg'/>
-        <Items name="Watermellon" price='80/Kg'/>
-        <Items name="Grapes" price='90/Kg'/>
-        <Items name="Apple" price='100/Kg'/>
-        <Items name="Mango" price='80/Kg'/>
-        <Items name="Papaya" price='40/Kg'/>
-        <Items name="Orange" price='50/Kg'/>
-        <Items name="Watermellon" price='80/Kg'/>
+        <Product name="Apple" price='100/Kg'/>
+        <Product name="Mango" price='80/Kg'/>
+        <Product name="Papaya" price='40/Kg'/>
+        <Product name="Orange" price='50/Kg'/>
+        <Product name="Watermellon" price='80/Kg'/>
+        <Product name="Grapes" price='90/Kg'/>
+        <Product name="Apple" price='100/Kg'/>
+        <Product name="Mango" price='80/Kg'/>
+        <Product name="Papaya" price='40/Kg'/>
+        <Product name="Orange" price='50/Kg'/>
+        <Product name="Watermellon" price='80/Kg'/>
       </div>
     </>
   )
