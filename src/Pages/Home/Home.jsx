@@ -4,6 +4,7 @@ import Feedback from '../../Components/Feedback/Feedback'
 import Footer from '../../Components/Footer/Footer'
 import Intro from '../../Components/Intro/Intro'
 import MainSection from '../../Components/MainSection/MainSection'
+import Nearby from '../../Components/Nearby/Nearby'
 import Service from '../../Components/Services/Service'
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <MainSection/>
       <Intro/>
       <Delivery/>
+      <Nearby/>
       <Service/>
       <Feedback/>
       <Footer/>

@@ -14,10 +14,10 @@ function Service() {
                 <h1>Upcoming Service Options</h1>
             </div>
             <div className='service-product-container'>
-                <Card image={laun} />
-                <Card image={cook} />
-                <Card image={hostel} />
-                <Card image={room} />
+                <Card image={laun} name=""/>
+                <Card image={cook} name=""/>
+                <Card image={hostel} name=""/>
+                <Card image={room} name=""/>
             </div>
         </div>
     </>

@@ -14,9 +14,9 @@ function Intro() {
             </div>
             <div className='intro-text'>
                 <p>- You create a list of items</p>
-                <p>- Forward list to us on WhatsApp</p>
+                <p>- Forward the list to us on WhatsApp</p>
                 <p>- We'll collect all the items and delivery it to you</p>
-                <p>- Pay on delivery</p>
+                {/* <p>- Pay on delivery</p> */}
             </div>
         </div>
     </div>

@@ -55,6 +55,7 @@
     border:none;
     cursor: pointer;
     transition: 0.3s;
+    color: white;
   }
   
   .card-btn button:hover{
@@ -67,6 +68,19 @@
       -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
 
+@media screen and (max-width: 940px) {
+  .card{
+    width: 33rem;
+    height: 33rem;
+    border-radius:20px
+  }
+  .card .card_image img{
+    border-radius: 20px;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+}
 
 @media screen and (max-width: 669px) {
   .card-container{
@@ -96,6 +110,8 @@
     object-fit: cover;
   }
 }
+
+
 
 
 

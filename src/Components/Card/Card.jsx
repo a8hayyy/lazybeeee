@@ -4,13 +4,14 @@ import './Card.css'
 
 function Card({image, name, btnName}) {
 
-  var c = (btnName==="Explore")? "#21758d":"#14c07b";
+  var c = (btnName==="Explore" || btnName==="View")? "#21758d":"#14c07b";
   var address = '/'+name;
-  var x = (btnName==="Explore" || btnName==="All Items");
+  var x = (btnName==="Explore" || btnName==="All Items" || btnName==="View");
   
 
   return (
     <div className='card-container'>
+        <Link to={address}>
         <div className='card'>
               <div className='card_image'>
                 <img src={image} alt=""/>
@@ -19,6 +20,7 @@ function Card({image, name, btnName}) {
                 
               </div>
         </div>
+        </Link>
 
         
         {(x)?(

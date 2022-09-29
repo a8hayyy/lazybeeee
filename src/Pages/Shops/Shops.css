@@ -1,0 +1,28 @@
+.shops-heading-container{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background-color: #eeeeee;
+    padding: 2rem 0;
+    margin: 7rem 0 5rem 0;
+}
+
+.shops-heading-container h1{
+    width: 100%;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.shops-items{
+    background-color: #ffa599;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16.5rem 0 5rem 0;
+}

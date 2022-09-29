@@ -6,6 +6,7 @@ import Fruit from './Pages/Fruit/Fruit';
 import Vegetable from './Pages/Vegetable/Vegetable';
 import Food from './Pages/Food/Food';
 import Products from './Pages/Products/Products';
+import Shops from './Pages/Shops/Shops'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/vegetable" element={<Vegetable/>} exact/>
           <Route path="/food" element={<Food/>} exact/>
           <Route path="/products" element={<Products/>} exact/>
+          <Route path="/shops" element={<Shops/>} exact/>
         </Routes>
       </Router>
     </>
