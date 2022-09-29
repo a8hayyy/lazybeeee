@@ -54,14 +54,17 @@
 
 @media screen and (max-width:560px) {
     .product-container{
-        width: 280px;
+        width: 150px;
+        height: 180px;
+        margin: 2rem 1.5rem;
     }
 
     .product-detail-container h4{
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin: .6rem 0 0.5rem;
     }
 
     .product-detail-container p{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }

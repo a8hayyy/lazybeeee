@@ -39,12 +39,12 @@ function Vegetable() {
         <Product name="Garlic" image={garlic}/>
         <Product name="Onion" image={onion}/>
         <Product name="Ginger" image={ginger}/>
-        <Product name="White Radish (Mooli)" image={radish}/>
+        <Product name="White Radish" image={radish}/>
         <Product name="Beans" image={beans}/>
         <Product name="Karela" image={karela}/>
         <Product name="Lauki" image={lauki}/>
         <Product name="Pea" image={pea}/>
-        <Product name="Red Chili (Lal mirch)" image={lal}/>
+        <Product name="Red Chili" image={lal}/>
         <Product name="Capsicum" image={capsicum}/>
         <Product name="Mushroom" image={musroom}/>
     </div>

@@ -36,12 +36,12 @@ function Fruit() {
         <Product name="Cherry" price='150/Box' image={cherry}/>
         <Product name="Pineapple" price='80/Kg' image={pineapple}/>
         <Product name="Grapes" price='90/Kg' image={grapes}/>
-        <Product name="Elderberry (Jamun)" price='140/Kg' image={elderberry}/>
+        <Product name="Jamun" price='140/Kg' image={elderberry}/>
         <Product name="Melon" price='60/Kg' image={melon}/>
-        <Product name="Sapodilla (Chiku)" price='60/Kg' image={sapodilla}/>
+        <Product name="Chiku" price='60/Kg' image={sapodilla}/>
         <Product name="Papaya" price='40/Kg' image={papaya}/>
         <Product name="Cucumber" price='40/Kg' image={cucu}/>
-        <Product name="Pomegranate (Anar)" price='60/Kg' image={pome}/> 
+        <Product name="Pomegranate" price='60/Kg' image={pome}/> 
         <Product name="Corn" price='25/peice' image={corn}/> 
       </div>
       <Explore/>

@@ -4,8 +4,8 @@
 
 .card{
     margin: 30px 20px;
-    width: 250px;
-    height: 250px;
+    width: 25rem;
+    height: 25rem;
     /* width: 150px;
     height: 150px; */
     border-radius: 40px;
@@ -66,6 +66,36 @@
     box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
       -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
+
+
+@media screen and (max-width: 669px) {
+  .card-container{
+    margin: .5rem;
+  }
+  .card{
+    width: 20rem;
+    height: 20rem;
+    border-radius:20px
+  }
+
+  .card-btn button {
+    width: 12rem;
+    height: 6rem;
+  }
+
+  /* .card_image{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+  } */
+
+  .card .card_image img{
+    border-radius: 20px;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+}
 
 
 

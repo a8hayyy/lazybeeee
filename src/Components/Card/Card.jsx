@@ -28,7 +28,7 @@ function Card({image, name, btnName}) {
           </Link>
         </div>
         ):(
-          <div></div>
+          <></>
         )}
     </div>
   )
