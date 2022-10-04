@@ -1,0 +1,28 @@
+.biryani-container{
+    width:100%;
+    margin: 10rem 0 0 0;
+    /* background-color: #565656; */
+}
+
+.category-heading-container{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background-color: #eeeeee;
+    padding: 2rem 0;
+    margin: 7rem 0 0 0;
+}
+
+.category-heading-container h1{
+    width: 100%;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.category-shopsection-container{
+    margin-top: 17rem;
+}

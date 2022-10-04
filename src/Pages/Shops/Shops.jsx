@@ -16,6 +16,7 @@ import fastfood from '../../Assets/shop/fast1.jpg'
 function Shops() {
   return (
     <>
+        <div className='shops-container'>
         <div className='shops-heading-container'>
             <h1>Shops & Restarants</h1>
         </div>
@@ -31,6 +32,10 @@ function Shops() {
           <Card image={veg} name='shops/vegetarian' btnName='View'/>
           <Card image={nonveg} name='shops/non-vegetarian' btnName='View'/>
         </div>
+        </div>
+        {/* <div className='trending-shops'>
+          <p>trending shops</p>
+        </div> */}
         <Footer/>
     </>
   )

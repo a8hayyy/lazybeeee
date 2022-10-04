@@ -1,0 +1,32 @@
+.fruit-container{
+    background-color: #2b2b2b;
+}
+.fruit-heading-container{
+    width: 100%;
+    position: sticky;
+    top: 6.9rem;
+    left: 0px;
+    z-index: 9999;
+    background-color: #0a0a0a17;
+    padding: 2rem 0;
+    margin: 0rem 0 0rem 0;
+}
+
+.fruit-heading-container h1{
+    width: 100%;
+    text-align: center;
+    color: rgb(249, 248, 248);
+    font-size: 5rem;
+    /* text-decoration: underline; */
+}
+
+.fruit-item-container{
+    /* background-color: #eeeeee; */
+    background-color: #2b2b2b;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 3rem 5rem 3rem;
+}
+

@@ -1,4 +1,5 @@
-import React,{Link} from 'react'
+import React from 'react'
+import {Link} from 'react-router-dom'
 import './Nearby.css'
 import Card from '../Card/Card'
 import biryani from '../../Assets/shop/biryani1.jpg'
@@ -18,9 +19,9 @@ function Nearby() {
             <Card image={rolls} name='rolls' btnName=''/>
             <Card image={momo} name='momo' btnName=''/>
         </div>
-        <a href='/shops'>
-        <div className='nearby-btn'>Explore All</div>
-        </a>
+        <Link to='/shops' style={{textDecoration:"none"}}>
+        <button className='nearby-btn'>Explore All</button>
+        </Link>
     </div>
   )
 }

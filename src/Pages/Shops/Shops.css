@@ -1,19 +1,26 @@
+.shops-container{
+    background-color: #ffa599;
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .shops-heading-container{
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 9999;
-    background-color: #eeeeee;
-    padding: 2rem 0;
-    margin: 7rem 0 5rem 0;
+        text-align: center;
+        width: 45rem;
+        background-color: #93392e; 
+        margin: 18rem 0 0;
+        height: 6.5rem;
+        border-radius: 8px;
+        padding: 1rem 0;
 }
 
 .shops-heading-container h1{
     width: 100%;
     text-align: center;
-    color: rgb(8, 8, 8);
-    font-size: 5rem;
+    color: rgb(250, 249, 249);
+    font-size: 4rem;
     text-decoration: none;
 }
 
@@ -24,5 +31,5 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 16.5rem 0 5rem 0;
+    padding: 3rem 0 5rem 0;
 }

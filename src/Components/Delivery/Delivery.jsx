@@ -20,12 +20,12 @@ function Delivery() {
                     <h1>Delivery Options</h1>
                 </div>
                 <div className='delivery-product-container'>
-                    <Card image={grocery} name="grocery" btnName='Explore'/>
+                    <Card image={grocery} name="" btnName='All Items'/>
                     <Card image={fruit} name='fruit' btnName='Explore'/>
                     <Card image={vegetable} name='vegetable' btnName='Explore'/>
-                    <Card image={colddrink} name="" btnName='Explore'/>
+                    <Card image={colddrink} name="drinks" btnName='Explore'/>
                     <Card image={snack} name="snack" btnName='Explore'/>
-                    <Card image={cigarette} name="cigarette" btnName='Explore'/>
+                    <Card image={cigarette} name="" btnName='All Items'/>
                     <Card image={beer} name="" btnName='All Items'/>
                     {/* <Card image={food} name='food' btnName='Explore'/> */}
                     {/* <Card image={stationary} name="" btnName='All Items'/> */}

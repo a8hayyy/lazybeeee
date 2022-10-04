@@ -1,6 +1,8 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './MainSection.css'
-import mainImg from "../../Assets/main-photo.jpg"
+// import mainImg from "../../Assets/background1.jpg"
+import mainImg from "../../Assets/main-photo2.png"
 
 
 function MainSection() {
@@ -14,9 +16,11 @@ function MainSection() {
                 <h3>- Order Fruits, Vegetables, Drinks, Food and many more...</h3>
             </div>
             <div className='button-container'>
-            <a href='/products'><button style={{backgroundColor:'#3f4f87'}}>Products</button></a>
-            <button style={{backgroundColor:'#1a8d26'}}>Contact</button>
+            <Link to='/products'><button>Products</button></Link>
+            {/* <button style={{backgroundColor:'#1a8d26'}}>Contact</button> */}
             </div>
+        </div>
+        <div className='main-image'>
         </div>
         <img src={mainImg}/>
     </div>

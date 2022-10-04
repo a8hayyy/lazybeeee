@@ -6,7 +6,7 @@ import Service from '../../Components/Services/Service'
 function Products() {
   return (
     <>
-     <div style={{marginTop:"5rem"}}>
+     <div style={{paddingTop:"0rem"}}>
      <Delivery/>   
      </div>   
      <Service/>
